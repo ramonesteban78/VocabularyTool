@@ -197,5 +197,16 @@
     <ImageAsset Include="Assets.xcassets\spanish.imageset\spanish~universal%403x.png" />
     <ImageAsset Include="Assets.xcassets\spanish.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\spanish.imageset\spanish~universal%402x.png" />
+    <ImageAsset Include="Assets.xcassets\close1.imageset\close~universal%403x.png" />
+    <ImageAsset Include="Assets.xcassets\close1.imageset\close~universal%402x.png" />
+    <ImageAsset Include="Assets.xcassets\close1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\close1.imageset\close~universal%401x.png" />
+    <ImageAsset Include="Assets.xcassets\close2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\close2.imageset\close~universal%401x.png" />
+    <ImageAsset Include="Assets.xcassets\close2.imageset\close~universal%402x.png" />
+    <ImageAsset Include="Assets.xcassets\close2.imageset\close~universal%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\close2.imageset\" />
   </ItemGroup>
 </Project>

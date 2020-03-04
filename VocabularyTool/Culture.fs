@@ -19,12 +19,9 @@ let init model =
 
 
 let view (model: Model) (dispatch:Msg -> unit) = 
-    View.ImageButton(widthRequest = 32.0, 
-        heightRequest = 32.0, 
+    View.ImageButton(widthRequest = (if model.isSelected then 42.0 else 32.0), 
+        heightRequest = (if model.isSelected then 42.0 else 32.0), 
         source = model.flag,
         horizontalOptions = LayoutOptions.Center,
         verticalOptions = LayoutOptions.Center,
-        backgroundColor = (if model.isSelected 
-                        then Xamarin.Forms.Color.Gray 
-                        else Xamarin.Forms.Color.Transparent),
         command = fun () -> CultureSelected model |> dispatch)

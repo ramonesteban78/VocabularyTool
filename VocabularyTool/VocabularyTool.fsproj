@@ -9,6 +9,7 @@
     <Compile Include="Culture.fs" />
     <Compile Include="CultureList.fs" />
     <Compile Include="CardGroupView.fs" />
+    <Compile Include="CardGroupListView.fs" />
     <Compile Include="Card.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
